@@ -69,7 +69,7 @@
 		layer_3 {
 		bindings = <
 		&trans &trans &trans &trans &trans			 			&trans &kp UNDER &kp PIPE &kp SINGLE_QUOTE &trans
-		&trans &kp ASTERISK &kp AMPERSAND &trans &trans 				&kp HASH &kp TILDE &kp SLSH &kp DOUBLE_QUOTES &kp DOLLAR 
+		&trans &kp ASTERISK &kp AMPERSAND &trans &trans 				&kp HASH &kp TILDE &kp SLASH &kp DOUBLE_QUOTES &kp DOLLAR 
 		&trans &trans &trans &trans &trans   						&trans &kp MINUS &kp BACKSLASH &kp GRAVE &trans   
 					 &trans &trans  					&trans &trans 
 		>;
