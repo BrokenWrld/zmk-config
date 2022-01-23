@@ -17,48 +17,6 @@
 
 / { 
 
- combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
-        };
-
-            combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-
-                    combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-
-                           combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
-        };
-
-
-           combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
-        };
-
-
-
-    };
 
         keymap {
                 compatible = "zmk,keymap";
@@ -66,9 +24,9 @@
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
-		&mt LSHIFT A &lt layer_5 S &lt layer_1 D &lt layer_3 F &kp G 		&kp H &lt layer_4 J &lt layer_2 K &lt layer_6 L &mt RSHIFT SEMICOLON
+		&mt LSHIFT A &lt 5 S &lt 1 D &lt 3 F &kp G 				&kp H &lt 4 J &lt 2 K &lt 6 L &mt RSHIFT SEMICOLON
 		&kp Z &mt LCTRL X &mt LALT C &kp V &kp B				&kp N &kp M &mt LALT COMMA &mt LCTRL DOT &kp SLSH
-          	&kp P0 &kp BSPACE  							&lt layer_7 SPACE &kp P1 
+          	&kp LGUI &kp BSPACE  							&lt 7 SPACE &kp P1 
 		>;
 		};
 
