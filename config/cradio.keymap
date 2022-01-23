@@ -104,7 +104,7 @@
 		
 		layer_7 {
 		bindings = <
-		&trans &trans &kp COLON &kp ESC &trans								&trans &trans &trans &trans &kp DEL
+		&trans &trans &kp COLON &kp ESCAPE &trans							&trans &trans &trans &trans &kp DELETE
 		&trans &kp PERCENT &kp SLASH &kp ENTER &trans							&trans &kp LGUI &trans &trans &trans 
 		&trans trans &trans &kp EXCLAMATION &trans							&trans &trans &trans &trans &trans   
 		&trans &kp TAB											&trans &trans
