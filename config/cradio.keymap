@@ -73,6 +73,15 @@
 		&trans &trans &trans &trans &trans   						&trans &kp MINUS &kp BACKSLASH &kp GRAVE &trans   
 					 &trans &trans  					&trans &trans 
 		>;
+		};
+		
+		layer_4 {
+		bindings = <
+		&trans &kp COLON &kp LT &kp GT &kp SEMICOLON							&trans &trans &trans &trans &trans
+		&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp AT		&trans &trans &kp EQUAL &kp PLUS &kp PERCENT 
+		&trans &kp EXCLAMATION &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans				&trans &trans &trans &trans &trans  
+		&kp K_VOLUME_DOWN &trans									&trans &kp K_VOLUME_UP
+		>;
 		};	
 
 	};
