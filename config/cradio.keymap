@@ -101,5 +101,14 @@
 		&none &none								&none &none
 		>;
 		};
+		
+		layer_7 {
+		bindings = <
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none								&none &none
+		>;
+		};
 	};
 };
