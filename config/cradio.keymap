@@ -84,5 +84,14 @@
 		>;
 		};
 		
+		layer_5 {
+		bindings = <
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none &none &none &none						&none &none &none &none &none
+		&none &none								&none &none
+		>;
+		};
+		
 	};
 };
