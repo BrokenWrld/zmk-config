@@ -44,7 +44,7 @@
 		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
 		&mt LSFT A &lt layer_5 S &lt layer_1 D &lt layer_3 F &kp G 		&kp H &lt layer_4 J &lt layer_2 K &lt layer_6 L &mt LSFT SEMICOLON
 		&kp Z &mt LCTRL X &mt LALT C &kp V &kp B				&kp N &kp M  &mt LALT COMMA &mt LCTRL DOT &kp SLASH
-          				&kp LGUI &kp BACKSPACE  			&lt layer_7 SPC &none 
+          				&kp LGUI &kp BACKSPACE  			&lt layer_7 SPC &kp LGUI 
 		>;
 		};
 
